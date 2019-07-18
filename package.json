@@ -11,10 +11,10 @@
   ],
   "scripts": {
     "start": "vuepress dev emservice",
-    "build:site": "export GH=1 && vuepress build embacktop",
+    "build:site": "export GH=1 && vuepress build emservice",
     "build": "cross-env BABEL_ENV=production && node build/build.water.js && gulp --gulpfile build/gulpfile.js",
-    "eslint": "eslint --ext .js,.vue site embacktop --fix",
-    "stylelint": "stylelint site/**/*.scss embacktop/**/*.scss",
+    "eslint": "eslint --ext .js,.vue site emservice --fix",
+    "stylelint": "stylelint site/**/*.scss emservice/**/*.scss",
     "lint": "npm run eslint && npm run stylelint",
     "lint-staged": "lint-staged",
     "test": "jest --config jest.conf.js --no-cache --verbose",
