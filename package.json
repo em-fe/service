@@ -1,6 +1,6 @@
 {
   "name": "emservice",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "Vue.js 客服组件",
   "author": "李梦龙 <649076408@qq.com>",
   "main": "dist/emservice.js",
