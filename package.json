@@ -1,7 +1,7 @@
 {
   "name": "emservice",
-  "version": "0.0.1",
-  "description": "Vue.js 组件库模板",
+  "version": "0.0.0",
+  "description": "Vue.js 客服组件",
   "author": "李梦龙 <649076408@qq.com>",
   "main": "dist/emservice.js",
   "unpkg": "dist/emservice.js",
@@ -19,6 +19,7 @@
     "lint-staged": "lint-staged",
     "test": "jest --config jest.conf.js --no-cache --verbose",
     "codecov": "codecov ./coverage/clover.xml",
+    "site": "yarn build:site && bash scripts/deploy-gh.sh",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
