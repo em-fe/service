@@ -1,8 +1,8 @@
 // 组件
-import Service from './service/index';
+import WService from './service/index';
 
 const waterCpt = {
-  Service,
+  WService,
 };
 
 const install = (Vue) => {
